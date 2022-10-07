@@ -261,7 +261,7 @@ th {
     grid-gap: var(--tenpix);
   }
 
-  .grid__item: last-child {
+  .grid__item:last-child {
     grid-column: auto/auto;
     grid-row: auto/auto;
   }
@@ -316,3 +316,9 @@ th {
 .cloud-back {
   animation: 34s cloud-move-reverse infinite alternate linear;
 }
+
+.error-message {
+  color: red;
+  font-size: 0.8em;
+}
+

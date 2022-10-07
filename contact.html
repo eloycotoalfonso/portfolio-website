@@ -50,13 +50,21 @@
         <h3>Send me a Message</h3>
         <div class = "contact__send-me-form">
           <form action = "#" method = "post" id = "contact-form">
-            <label class = "standard-label" for = "contact-email">Email*:</label>
-            <input type = "email" id = "contact-email" required>
-            <label class = "standard-label" for = "contact-telephone">Telephone:</label>
-            <input type = "tel" pattern = "\d{3}[\-]\d{3}[\-]\d{4}" id ="contact-telephone">
-            <label class = "standard-label" for ="contact-message">Message*:</label>
-            <textarea required maxlength="250" id ="contact-message"></textarea>
+            <div>
+              <label class = "standard-label" for = "contact-email">Email*:</label>
+              <input type = "email" id = "contact-email" required>
+            </div>
+            <div>
+              <label class = "standard-label" for = "contact-telephone">Telephone:</label>
+              <input type = "tel" pattern = "\d{3}[\-]\d{3}[\-]\d{4}" id ="contact-telephone">
+            </div>
+            <div>
+              <label class = "standard-label" for ="contact-message">Message*:</label>
+              <textarea required maxlength="250" id ="contact-message"></textarea>
+            </div>
+
             <input type = "submit" value = "send message">
+         
           </form>
           <p id = "form-request"> *Required fields</p>
         </div>
@@ -73,5 +81,6 @@
       </div>
     </footer>
     <script src = "js/tota11y.min.js"></script>
+    <script src = "js/scripts.js"></script>
   </body>
 </html>
