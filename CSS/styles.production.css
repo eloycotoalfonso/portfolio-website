@@ -200,6 +200,7 @@ th{
 .grid__item{
   display: inline-block;
   width:33%;
+  border-radius: 10px;
 }
 .project__image{
   width: 90%;
@@ -210,7 +211,7 @@ th{
   .grid{
     display:-ms-grid;
     display:grid;
-    margin-top: 50px;
+    margin: 50px;
     -ms-grid-columns: 1fr 5px 1fr 5px 1fr;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 15px;
