@@ -171,6 +171,9 @@ input[type="submit"]{
 .about:first-child, .about__button{
   text-align: center;
 }
+.study__button {
+  margin-top: 15px;
+}
 .about__wrapper{
   display: flex;
   flex-direction: row;
@@ -210,11 +213,17 @@ th{
   width:33%;
   border-radius: 10px;
 }
+.card-tag {
+  background-color: #3C403D;;
+  color: white;
+  border-radius: 5px;
+  padding: 2px 5px;
+  white-space: nowrap;
+  text-align: center;
+}
 .project__image{
   width: 90%;
-
 }
-
 @supports (display: grid){
   .grid{
     display:-ms-grid;

@@ -230,6 +230,15 @@ th {
   }
 }
 
+.card-tag {
+  background-color: var(--primary-color);
+  color: white;
+  border-radius: 5px;
+  padding: 2px 5px;
+  white-space: nowrap;
+  text-align: center;
+}
+
 /* .contact {
   display: grid;
   justify-self: center;
