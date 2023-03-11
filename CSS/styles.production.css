@@ -171,11 +171,19 @@ input[type="submit"]{
 .about:first-child, .about__button{
   text-align: center;
 }
+.about__wrapper{
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  justify-content: space-between;
+}
 .about__table{
   max-width: 700px;
   margin: 0 auto;
   text-align: center;
   border-left: 10px;
+  border-right: 20px;
 }
 th{
   padding: 10px;
