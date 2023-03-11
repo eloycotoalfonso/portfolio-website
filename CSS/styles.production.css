@@ -252,22 +252,32 @@ th{
 .client_side_images__item{
   border: auto;
 }
-.contact{
-  display:-ms-grid;
-  display:grid;
-  -ms-grid-column-align: center;
-  justify-self: center;
-  max-width: 600px;
-	margin: 0 auto;
-  grid-gap: 20px;
-  -ms-grid-columns: 50% 20px 50%;
-  grid-template-columns: 50% 50%;
-  border-top: 50px;
+.contact {
+  display: grid;
+  height: auto;
+  width: 100%;
+  min-height: 260px;
+  grid-template-rows: 1fr;
+  grid-template-columns: 100%;
+  align-items: center;
+  text-align: center;
 }
-.contact__info{
-  border-top:50px;
-  padding-top: 50px;
-  text-align:center;
+.contact__area {
+  background-color: #a3bcb6;
+  width: 90%;
+  min-height: 200px;
+  align-self: center;
+  border-radius: 100px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+#contact__title {
+  font-size: 40px;
+}
+#contact__email {
+  font-size: 25px;
 }
 .study_case{
   max-width: 60%;
