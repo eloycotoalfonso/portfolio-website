@@ -248,9 +248,6 @@ th{
     grid-column: 1/3;
   } 
 }
-.client_side_images__item{
-  border: auto;
-}
 .contact {
   display: grid;
   height: auto;
@@ -277,70 +274,6 @@ th{
 }
 #contact__email {
   font-size: 25px;
-}
-.study_case{
-  max-width: 80%;
-  margin: auto;
-  align-content: center;
-  justify-content: center;
-  justify-self: center;
-  text-align: justify;
-}
-.myFlix_index{
-  float:right;
-  width: 300px;
-  height: auto;
-  margin-left: 10px;
-}
-.server_side_images{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-}
-.myFlix_postman{
-  max-width: 350px;  
-}
-.myFlix_code{
-  max-width: 350px;
-}
-.myFlix_movie{
-  max-width: 500px;
-  margin: auto;
-}
-.myFlix_movie_wrapper{
-  width: 100%;
-  text-align: center;
-}
-.cv {
-  max-width: 80%;
-  margin: auto;
-  padding: 20px;
-  align-content: center;
-  justify-content: center;
-  justify-self: center;
-  text-align: justify;
-}
-.cv__button{
-  text-align: center;
-  position:block;
-  margin-top: 15px;
-  margin-bottom: 15px;
-}
-.cv_image{
-  border-radius: 10px;
-  max-width: 85%;
-  border: 1px;
-  border-style:solid;
-  border-color:#3C403D;
-}
-@media all and (min-width: 1000px) {
-  .cv__button{
-    position: fixed;
-    bottom:1; 
-    left: 0;
-    translate: 0 120px;
-    margin-left: 5%;
-  }
 }
 @media all and (max-width: 500px) {
   .grid, .client_side_images {
