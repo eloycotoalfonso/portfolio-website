@@ -318,7 +318,6 @@ th{
   justify-content: center;
   justify-self: center;
   text-align: justify;
-  border-style: dashed;
 }
 @media all and (max-width: 500px) {
   .grid, .client_side_images {
