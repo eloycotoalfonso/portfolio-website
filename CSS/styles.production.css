@@ -138,7 +138,7 @@ input[type="submit"]{
           flex-grow: 1;
   text-align: right;
 }
-.navigation-list, .about__enjoy-list, .credit_list{
+.navigation-list, .credit_list{
   list-style-type: none;
 }
 .navigation-list li{
@@ -167,33 +167,24 @@ input[type="submit"]{
   margin: 0px auto;
   text-align: justify;
 }
+.about_image_description__cfd{
+  max-width: 300px;
+  float: right;
+  margin: 10px;
+}
+.about_image_description__sport{
+  max-width: 250px;
+  float: left;
+  margin: 10px;
+}
 .about:first-child, .about__button{
   text-align: center;
 }
 .study__button {
   margin-top: 15px;
 }
-.about__wrapper{
-  display: flex;
-  flex-direction: row;
-  margin-top: 20px;
-  margin-bottom: 50px;
-  justify-content: space-between;
-}
-.about__table{
-  max-width: 700px;
-  margin: 0 auto;
-  text-align: center;
-  border-left: 10px;
-  border-right: 20px;
-}
 th{
   padding: 10px;
-}
-.about__enjoy{
-  text-align: center;
-  padding: 5px;
-  margin: 20px;
 }
 .page-footer{
   margin-top: 30px;
@@ -318,6 +309,27 @@ th{
   justify-content: center;
   justify-self: center;
   text-align: justify;
+}
+.cv__button{
+  text-align: center;
+  position:block;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.cv_image{
+  border-radius: 10px;
+  max-width: 85%;
+  border: 1px;
+  border-style:solid;
+  border-color:#3C403D;
+}
+@media all and (min-width: 1000px) {
+  .cv__button{
+    position: fixed;
+    bottom:1; 
+    left: 0;
+    margin-left: 5%;
+  }
 }
 @media all and (max-width: 500px) {
   .grid, .client_side_images {
