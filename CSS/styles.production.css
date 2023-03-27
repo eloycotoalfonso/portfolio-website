@@ -328,6 +328,7 @@ th{
     position: fixed;
     bottom:1; 
     left: 0;
+    translate: 0 120px;
     margin-left: 5%;
   }
 }
