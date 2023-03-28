@@ -298,17 +298,6 @@ th{
   margin-left: 30px;
   margin-bottom: 20px;
 }
-.contact__area {
-  background-color: #a3bcb6;
-  width: 90%;
-  min-height: 200px;
-  align-self: center;
-  border-radius: 100px;
-  margin: auto;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
 #contact__title {
   font-size: 40px;
 }
