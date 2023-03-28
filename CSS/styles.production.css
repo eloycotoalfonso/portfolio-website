@@ -278,7 +278,7 @@ th{
   font-size: 25px;
 }
 .study_case{
-  max-width: 60%;
+  max-width: 75%;
   margin: auto;
   align-content: center;
   justify-content: center;
@@ -305,7 +305,7 @@ th{
 .server_side_images{
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 .myFlix_postman{
   max-width: 350px;  
@@ -377,6 +377,7 @@ th{
   }
   .server_side_images{
     display: block;
+    justify-content: center;
   }
   .grid__item:last-child, .client_side_images__item:first-child{
     grid-column: auto/auto;
