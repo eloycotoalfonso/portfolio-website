@@ -375,6 +375,9 @@ th{
     -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
   }
+  .server_side_images{
+    display: block;
+  }
   .grid__item:last-child, .client_side_images__item:first-child{
     grid-column: auto/auto;
     grid-row: auto/auto;
