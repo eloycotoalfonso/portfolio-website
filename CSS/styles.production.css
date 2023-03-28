@@ -302,6 +302,14 @@ th{
 #contact__title {
   font-size: 40px;
 }
+.server_side_images{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.myFlix_postman{
+  max-width: 350px;  
+}
 .myFlix_code{
   max-width: 350px;
 }
