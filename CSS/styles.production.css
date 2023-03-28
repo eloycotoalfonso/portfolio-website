@@ -233,7 +233,7 @@ th{
   .client_side_images{
     /* display:-ms-grid; */
     display: grid;
-    margin: auto;
+    margin-top: 30px;
     /* -ms-grid-columns: 1fr 5px 1fr; */
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
@@ -241,6 +241,7 @@ th{
     align-items: center;
     justify-content: center;
     text-align: center;
+    justify-content: space-between;
   }
   .client_side_images__item:first-child{
     max-height: 200px;
@@ -269,23 +270,31 @@ th{
   text-align:center;
 }
 .study_case{
-  max-width: 80%;
+  max-width: 60%;
   margin: auto;
   align-content: center;
   justify-content: center;
   justify-self: center;
   text-align: justify;
 }
+.study_case_title{
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.study_case_text{
+  margin: 10px;
+}
 .myFlix_index{
   float:right;
-  width: 300px;
+  width: 330px;
   height: auto;
-  margin-left: 10px;
+  margin-left: 30px;
+  margin-bottom: 20px;
 }
 .server_side_images{
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 .myFlix_postman{
   max-width: 350px;  
@@ -295,7 +304,8 @@ th{
 }
 .myFlix_movie{
   max-width: 500px;
-  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 .myFlix_movie_wrapper{
   width: 100%;
