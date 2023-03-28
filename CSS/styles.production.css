@@ -309,9 +309,11 @@ th{
 }
 .myFlix_postman{
   max-width: 350px;  
+  margin: 20px;
 }
 .myFlix_code{
   max-width: 350px;
+  margin: 20px;
 }
 .myFlix_movie{
   max-width: 500px;
