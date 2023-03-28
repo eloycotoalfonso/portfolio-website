@@ -238,22 +238,6 @@ th {
   white-space: nowrap;
   text-align: center;
 }
-
-/* .contact {
-  display: grid;
-  justify-self: center;
-  max-width: 600px;
-  margin: 0 auto;
-  grid-gap: 20px;
-  grid-template-columns: 50% 50%;
-  border-top: 50px;
-} */
-
-/* .contact__info {
-  border-top: 50px;
-  padding-top: 50px;
-  text-align: center;
-} */
 .contact {
   display: grid;
   height: auto;
@@ -264,7 +248,6 @@ th {
   align-items: center;
   text-align: center;
 }
-
 .contact__area {
   background-color: var(--grid-background-color);
   width: 90%;
@@ -283,8 +266,6 @@ th {
 #contact__email {
   font-size: 25px;
 }
-
-
 @media all and (max-width: 500px) {
   .grid {
     grid-template-columns: 1fr;
