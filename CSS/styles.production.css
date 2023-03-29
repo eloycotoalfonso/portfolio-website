@@ -214,6 +214,10 @@ th{
 .project__image{
   width: 90%;
 }
+.project__image:hover{
+  width: 95%;
+  box-shadow: 0 8px 12px 0 rgba(34,60,80,0.16);
+}
 @supports (display: grid){
   .grid{
     display:-ms-grid;
