@@ -214,6 +214,14 @@ th{
 .project__image{
   width: 90%;
 }
+.project__image__demo{
+  transition: all ease-in-out .2s;
+}
+
+.project__image__demo:hover{
+  width: 95%;
+  box-shadow: 0 8px 12px 0 #39603D;
+}
 @supports (display: grid){
   .grid{
     display:-ms-grid;
